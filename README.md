@@ -117,6 +117,61 @@ Each component lives in its own folder:
 ├── predictions/ → Inference on single images
 ```
 
+## 📈 Results
+
+The model was trained for **20 epochs** using a frozen Vision Transformer (ViT-B/16) backbone and a custom classification head on the 70/30 augmented version of the ICIAR2018 BACH dataset.
+
+### 🧪 Final Performance
+| Metric        | Value     |
+|---------------|-----------|
+| Train Accuracy | **97.3%** |
+| Test Accuracy  | **94.8%** |
+| Final Train Loss | **0.0828** |
+| Final Test Loss  | **0.1445** |
+
+---
+
+## 📈 Results
+
+The model was trained for **20 epochs** using a frozen Vision Transformer (ViT-B/16) backbone and a custom classification head on the 70/30 augmented version of the ICIAR2018 BACH dataset.
+
+### 🧪 Final Performance
+| Metric        | Value     |
+|---------------|-----------|
+| Train Accuracy | **97.3%** |
+| Test Accuracy  | **94.8%** |
+| Final Train Loss | **0.0828** |
+| Final Test Loss  | **0.1445** |
+
+---
+
+### 🔁 Training Logs
+
+Below are visualizations of the training process:
+
+---
+
+### 📉 Loss vs Epochs
+
+![image](https://github.com/user-attachments/assets/4f8eaa26-13ca-4cd0-921f-4a4d4acedfae)
+
+
+### 📈 Accuracy vs Epochs
+
+![image](https://github.com/user-attachments/assets/59a40987-8247-4015-b403-6fbf688a5fd5)
+
+
+> The model demonstrates strong convergence with consistent performance across train and test sets, showing no signs of overfitting due to augmentation and proper weight freezing.
+
+---
+
+### 📌 Interpretation
+- Training accuracy increased steadily, reaching **97%+**.
+- Test accuracy remained stable around **94.5–94.9%**, indicating good generalization.
+- Both training and test losses decreased consistently throughout.
+
+The results confirm the effectiveness of using pretrained Vision Transformers for histopathology image classification in a data-efficient and stable manner.
+
 
 
 
