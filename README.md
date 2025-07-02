@@ -117,19 +117,6 @@ Each component lives in its own folder:
 ├── predictions/ → Inference on single images
 ```
 
-## 📈 Results
-
-The model was trained for **20 epochs** using a frozen Vision Transformer (ViT-B/16) backbone and a custom classification head on the 70/30 augmented version of the ICIAR2018 BACH dataset.
-
-### 🧪 Final Performance
-| Metric        | Value     |
-|---------------|-----------|
-| Train Accuracy | **97.3%** |
-| Test Accuracy  | **94.8%** |
-| Final Train Loss | **0.0828** |
-| Final Test Loss  | **0.1445** |
-
----
 
 ## 📈 Results
 
