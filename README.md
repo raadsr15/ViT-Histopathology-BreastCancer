@@ -55,27 +55,28 @@ Due to hardware constraints, the full ~13 GB dataset is **computationally intens
 
 Your dataset should be organized as follows:
 
+```
 data/
 ├── train/
-│ ├── Benign/
-│ │ ├── image_001.png
-│ │ ├── image_002.png
-│ │ └── ...
-│ ├── InSitu/
-│ │ ├── image_101.png
-│ │ └── ...
-│ ├── Invasive/
-│ │ ├── image_201.png
-│ │ └── ...
-│ └── Normal/
-│ ├── image_301.png
-│ └── ...
-│
+│   ├── Benign/
+│   │   ├── image_001.png
+│   │   ├── image_002.png
+│   │   └── ...
+│   ├── InSitu/
+│   │   ├── image_101.png
+│   │   └── ...
+│   ├── Invasive/
+│   │   ├── image_201.png
+│   │   └── ...
+│   └── Normal/
+│       ├── image_301.png
+│       └── ...
 ├── test/
-│ ├── Benign/
-│ ├── InSitu/
-│ ├── Invasive/
-│ └── Normal/
+│   ├── Benign/
+│   ├── InSitu/
+│   ├── Invasive/
+│   └── Normal/
+```
 
 
 ## 🧠 Project Architecture
@@ -107,12 +108,14 @@ This repository follows a clean, modular architecture to ensure readability, reu
 
 ### 🧱 5. **Modular Design**
 Each component lives in its own folder:
+
+```
 ├── models/ → ViT model definition and head
 ├── engine/ → Training & evaluation logic
 ├── utils/ → Seed setting, visualization tools
 ├── scripts/ → Main training pipeline
 ├── predictions/ → Inference on single images
-
+```
 
 
 
