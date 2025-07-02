@@ -1,3 +1,5 @@
+![Flux_Dev_A_futuristic_highresolution_medicalthemed_illustratio_0](https://github.com/user-attachments/assets/48002453-4fe8-497a-a90b-dea601a5b4de)
+
 ## 🧬 Introduction
 
 This repository presents a Vision Transformer (ViT-B/16) model fine-tuned on the **BACH (Breast Cancer Histology)** dataset for the task of **breast cancer classification**. It demonstrates the power of transformer-based architectures in the field of digital pathology, offering an end-to-end PyTorch pipeline suitable for both research and practical deployment.
