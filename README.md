@@ -159,7 +159,38 @@ Below are visualizations of the training process:
 
 The results confirm the effectiveness of using pretrained Vision Transformers for histopathology image classification in a data-efficient and stable manner.
 
+## 🧪 Validation on Custom Images
 
+To further assess generalization, I tested the trained model on **custom validation images**—completely separated from training or test sets. These represent unseen histopathological cases and were manually selected for each class.
+
+The model achieved **high confidence** predictions across all samples:
+
+### ✅ Sample Predictions
+
+- **Benign**  
+  *Predicted with 98.4% confidence*  
+
+  ![image](https://github.com/user-attachments/assets/4eddd2cf-64d9-4bbb-be80-dd053a290db0)
+
+
+- **InSitu Carcinoma**  
+  *Predicted with 100% confidence*
+  
+  ![image](https://github.com/user-attachments/assets/f73477fa-b09f-43ae-bed4-9bd9b225de4e)
+
+
+- **Invasive Carcinoma**  
+  *Predicted with 100% confidence*  
+  ![image](https://github.com/user-attachments/assets/dc11541f-c4c9-4af6-9dfb-e8fc92806741)
+
+
+- **Normal Tissue**  
+  *Predicted with 100% confidence*
+  
+  ![image](https://github.com/user-attachments/assets/44ccadad-603d-4042-8615-165a82bba6fd)
+
+
+---
 
 
 
